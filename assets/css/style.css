@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-image: url(../images/prism.png);
+}
+
+.name {
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+    width: 960px;
+}
+
+.header {
+    background: white;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    display: inline;
+    padding-bottom: 13.5px;
+}
+nav {
+    float: right;
+    color: black;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px
+}
+
+li {
+    display: inline;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.area {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    height: 300px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+   background-color: white;
+   height: 100px;
+
+}
+ .lower {
+     position: absolute;
+     bottom: left;
+ }
+
+ form {
+     width: auto
+ }
+
+ input {
+     width: 97%;
+     margin: 10px;
+ }
+
+ label {
+     margin: 10px;
+ }
+
+ textarea {
+     margin: 10px;
+     width: 97%;
+     height: 50px;
+ }
+
+ button {
+     margin: 10px;
+     color: white;
+     background-color: #4aaaa5;
+     text-align: center;
+     display: inline-block;
+ }
