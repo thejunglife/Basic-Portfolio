@@ -1,31 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     margin: 0;
     background-image: url(../images/prism.png);
 }
 
+/* all pages */
 .name {
     margin: auto;
     overflow: hidden;
     padding: 0;
     width: 960px;
 }
-
+/* all pages */
 .header {
     background: white;
+    border-bottom: solid 2px #cccccc;
 }
-
+/* all pages */
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    border-bottom: solid 2px #cccccc;
 }
-
+/* all pages */
+h2 {
+    padding-bottom: 10px;
+}
+/* all pages */
 h1 {
     background-color: #4aaaa5;
     color: white;
     margin: 0;
     display: inline;
     padding-bottom: 13.5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+/* all pages */
 nav {
     float: right;
     color: black;
@@ -46,26 +62,7 @@ a{
 li {
     display: inline;
 }
-
-img {
-    width: 200px;
-    height: 200px;
-    float: left;
-
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-   
-}
-
-.area {
-    width: 960px;
-    background-color: white;
-    margin: auto;
-    height: 350px;
-    padding: 20px;
-}
+/* all pages */
 .footer {
     position: fixed;
     left: 0;
@@ -82,29 +79,133 @@ p {
      bottom: left;
  }
 
- form {
-     width: auto
- }
 
- input {
-     width: 97%;
-     margin: 10px;
- }
+/* only for about me page */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/* only for about me page */
+.area {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    height: 350px;
+    padding: 20px;
+}
 
- label {
-     margin: 10px;
- }
+/* only for about me page */
+    img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
- textarea {
-     margin: 10px;
-     width: 97%;
-     height: 50px;
- }
 
- button {
-     margin: 10px;
-     color: white;
-     background-color: #4aaaa5;
-     text-align: center;
-     display: inline-block;
- }
+
+
+
+
+/* only for contact page */
+.areaForm {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    height: 400px;
+    padding: 20px;
+    
+}
+
+
+
+/* only for contact page */
+form {
+    width: auto
+}
+
+input {
+    width: 97%;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+label {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+textarea {
+    margin: 10px;
+    width: 97%;
+    height: 50px;
+    margin-left: 0px
+}
+
+button {
+    margin: 10px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+/* only for porfolio page */
+.areaPort {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    height: 600px;
+    padding: 20px;
+}
+/* only for portfolio */
+    .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-left: 0px;
+    position: relative;
+}
+
+.picture {
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    margin-left: 0;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -15px;
+}
+
+
+h4 {
+    background-color: #4aaaa5;
+    /* better look for now */
+    display: inline-blok;
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+.biopic {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+}
+
+
+
+
+
