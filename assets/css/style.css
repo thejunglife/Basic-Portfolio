@@ -63,7 +63,8 @@ p {
     width: 960px;
     background-color: white;
     margin: auto;
-    height: 300px;
+    height: 350px;
+    padding: 20px;
 }
 .footer {
     position: fixed;
